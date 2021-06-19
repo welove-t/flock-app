@@ -1,7 +1,14 @@
 import Head from 'next/head';
+import Header from '../components/lp/Header';
+import Hero from '../components/lp/Hero';
 
 const Home = () => {
-  return <p className="text-red-800 font-bold text-2xl">TEST</p>;
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
