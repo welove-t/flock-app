@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen flex items-center">
+    <div className="relative py-20 lg:h-screen flex items-center">
       <Image src="/images/hero.png" alt="" layout="fill" objectFit="cover" />
       <div className="relative container">
-        <p className="text-5xl font-bold text-white leading-relaxed mb-6">
+        <p className="lg:text-5xl text-2xl font-bold text-white lg:leading-relaxed mb-6">
           おい、イベントを
           <br />
           はじめよう。
