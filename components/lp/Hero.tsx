@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <div className="relative h-screen flex items-center">
-      <Image src="/images/hero.png" layout="fill" objectFit="cover" />
+      <Image src="/images/hero.png" alt="" layout="fill" objectFit="cover" />
       <div className="relative container">
         <p className="text-5xl font-bold text-white leading-relaxed mb-6">
           おい、イベントを
