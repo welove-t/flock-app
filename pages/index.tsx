@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Features from '../components/lp/Features';
 import Header from '../components/lp/Header';
 import Hero from '../components/lp/Hero';
 
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Header />
       <Hero />
+      <Features />
     </>
   );
 };
