@@ -2,7 +2,13 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        google: '#EA4335',
+        facebook: '#3B5998',
+        twitter: '#00ACEE',
+      },
+    },
     container: {
       center: true,
       padding: {
@@ -14,5 +20,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 };
