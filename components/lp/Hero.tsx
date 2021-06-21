@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -10,9 +11,11 @@ const Hero = () => {
           <br />
           はじめよう。
         </p>
-        <a className="bg-white font-bold rounded-full py-4 px-10 shadow">
-          アカウントを作成
-        </a>
+        <Link href="/login">
+          <a className="bg-white font-bold rounded-full py-4 px-10 shadow">
+            アカウントを作成
+          </a>
+        </Link>
       </div>
     </div>
   );
